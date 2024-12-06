@@ -103,13 +103,12 @@ nav{
 }
 
 .contents{
-    background-color: #3882f6;
     box-sizing: border-box;
     height: 150px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 10px;
-    border: 10px #3882f6;
+    border: 5px solid #3882f6;
 }
 .boxes{
     display: flex;
@@ -117,7 +116,6 @@ nav{
     justify-content: space-between;
     gap: 50px;
     margin-top: 50px;
-    border: 3px #3882f6;
 }
 
 .image-text{
@@ -170,3 +168,41 @@ nav{
     font-style: italic;
 }
 
+.Section4{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box{
+    background-color: #3882F6;
+    color: white;
+    height: 150px;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn2{
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    border-radius:  5px;
+    border: 3px solid white;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
